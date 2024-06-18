@@ -6,7 +6,8 @@ import store from './store/store';
 import './index.css';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3045/api/movies';
+// axios.defaults.baseURL = 'http://localhost:3045/api/movies';
+axios.defaults.baseURL = 'https://movie-list-wcop.onrender.com/api/movies';
 
 const container = document.getElementById('root');
 const root = createRoot(container); 
